@@ -106,7 +106,6 @@ class CreateUsersCommand extends Command
     private function setUserClass(): void
     {
         $class = $this->option('class');
-        dd($this);
         if ($class === null) {
             return;
         }
