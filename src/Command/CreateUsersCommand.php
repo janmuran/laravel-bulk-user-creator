@@ -20,7 +20,7 @@ class CreateUsersCommand extends Command
     /**
      * @var string
      */
-    protected $signature = 'create:users {data} {--separator=;} {--class}';
+    protected $signature = 'create:users {data} {--separator=;} {--class=}';
 
     /**
      * @var string
